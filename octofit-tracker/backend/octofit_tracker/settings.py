@@ -80,7 +80,7 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "djongo",
+        "ENGINE": "djongo",  # Added djongo as the database engine
         "NAME": "octofit_db",
     }
 }
